@@ -7,15 +7,15 @@
 #include <stdbool.h>
 
 int main() {
-    int N; 
+    int n; 
     scanf("%d",&N);
 
-    if(N % 2 != 0) {
+    if(n % 2 != 0) {
         printf("Weird\n");
     } else {
-        if(N >= 2 && N < 5) {
+        if(n >= 2 && n < 5) {
             printf("Not Weird\n");
-        } else if(N > 5 && N <= 20) {
+        } else if(n > 5 && n <= 20) {
             printf("Weird\n");
         } else {
             printf("Not Weird\n");
